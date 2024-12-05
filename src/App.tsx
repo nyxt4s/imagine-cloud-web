@@ -1,12 +1,14 @@
 
 import Navbar from './components/Navbar'
+import Home from './pages/home/Home'
 
 function App() {
 
 
   return (
-    <div className='min-h-screen bg-gradient-to-br from-purple-100 via-orange-50 to-transparent'>
+    <div className=''>
       <Navbar></Navbar>
+      <Home></Home>
     </div>
         
    

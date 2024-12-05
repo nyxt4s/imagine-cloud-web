@@ -9,14 +9,14 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="px-5 lg:px-10 py-4 flex bg-white justify-between items-center border border-b-gray-200">
-            <a href="#" className="flex-1 text-lg font-semibold font-sans text-sky-50">
-                Logo
+        <nav className="px-5 lg:px-10 py-4 flex bg-white justify-between items-center border border-b-gray-200 fixed top-0 w-full z-50">
+            <a href="#" className="flex-1 text-lg font-semibold font-sans text-sky-50 lg: ml-14">
+                Antü Labs
             </a>
             <div id="nav-menu" className="hidden text-lg lg:flex gap-10">
                 <a href="#"
                     className="font-medium font-sans hover:text hover:underline underline-offset-4 decoration-2" >
-                    Home
+                    Inicio
                 </a>
                 <a href="#" className="font-medium font-sans hover:text-black hover:underline underline-offset-4 decoration-2"
                 >
@@ -51,7 +51,7 @@ export default function Navbar() {
             <div id="nav-dialog" className="hidden fixed z-10 lg:hidden bg-white inset-0 px-5 py-4">
                 <div className="flex justify-between">
                     <a href="#" className="flex-1 text-lg font-semibold font-sans ml-8" id="brand-logo">
-                        Logo
+                        Antu labs
                     </a>
                     <button onClick={handleMenu} className="lg:hidden">
                         <IoMdClose className="text-3xl"></IoMdClose>
