@@ -1,6 +1,7 @@
 import { GoArrowRight } from "react-icons/go";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import Logo  from "../assets/nyx technologies.svg";
 
 export default function Navbar() {
     const handleMenu = () => {
@@ -10,8 +11,8 @@ export default function Navbar() {
 
     return (
         <nav className="px-5 lg:px-10 py-4 flex bg-white justify-between items-center border border-b-gray-200 fixed top-0 w-full z-50">
-            <a href="#" className="flex-1 text-lg font-semibold font-sans text-sky-50 lg: ml-14">
-                Antü Labs
+            <a href="#" className="flex-1 flex text-lg font-semibold font-sans  lg: ml-2">
+                <img src={Logo} alt="" className="h-[50px] " /> <p className="absolute mt-2 ml-12">NYX TECHNOLOGIES</p>
             </a>
             <div id="nav-menu" className="hidden text-lg lg:flex gap-10">
                 <a href="#"
@@ -50,8 +51,8 @@ export default function Navbar() {
             {/* Menú móvil */}
             <div id="nav-dialog" className="hidden fixed z-10 lg:hidden bg-white inset-0 px-5 py-4">
                 <div className="flex justify-between">
-                    <a href="#" className="flex-1 text-lg font-semibold font-sans ml-8" id="brand-logo">
-                        Antu labs
+                    <a href="#" className="flex-1 flex text-lg font-semibold font-sans ml-2" id="brand-logo">
+                    <img src={Logo} alt="" className="h-[50px] " /> <p className="absolute mt-2 ml-12">NYX TECHNOLOGIES</p>
                     </a>
                     <button onClick={handleMenu} className="lg:hidden">
                         <IoMdClose className="text-3xl"></IoMdClose>

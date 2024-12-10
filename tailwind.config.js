@@ -13,7 +13,9 @@ export default {
         xl: '5rem',
         '2xl': '6rem',
       }},
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }
