@@ -11,7 +11,7 @@ export default function Home (){
                 
                     </div>
                     <div className="w-1/2 content-center h-screen text-center justify-center items-center">
-                        <h1 className="text-white text-8xl w-max">NYX TECHNOLOGIES</h1>
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-white  w-max">NYX TECHNOLOGIES</h1>
                         <p className="text-white text-1xl">"Tu Tiempo Importa, Nuestro Tecnología 
                         Simplifica: ¡Vive más, Preocúpate menos!"</p>
                         <br />rbfdsfds
