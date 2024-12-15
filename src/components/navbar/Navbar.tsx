@@ -1,7 +1,7 @@
 import { GoArrowRight } from "react-icons/go";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-import Logo  from "../assets/nyx technologies.svg";
+import Logo  from "../../assets/nyx technologies.svg";
 
 export default function Navbar() {
     const handleMenu = () => {
