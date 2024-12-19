@@ -57,16 +57,73 @@ export default function Home (){
 
                 <div className="container mx-auto px-4 h-auto py-3 mb-10 ">
                     <h5>Things We Enjoy</h5>
-                    <div>
-                        <div>
-                            <img src="" alt="" />
+                    <div className='flex'>
+                    <div className='align-center flex-col p-4'>
+                        <div className='p-3'>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h6>Content writing</h6>
+                                <p>But I must explain to you how all this mistaken 
+                                idea of denouncing pleasure</p>
+                            </div>
                         </div>
-                        <div>
-                            <h6>Content writing</h6>
-                            <p>But I must explain to you how all this mistaken 
-                            idea of denouncing pleasure</p>
+                        <div className='p-3'>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h6>Content writing</h6>
+                                <p>But I must explain to you how all this mistaken 
+                                idea of denouncing pleasure</p>
+                            </div>
+                        </div>
+                        <div className='p-3'>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h6>Content writing</h6>
+                                <p>But I must explain to you how all this mistaken 
+                                idea of denouncing pleasure</p>
+                            </div>
                         </div>
                     </div>
+                    <div className='p-4'>
+                        <div className='p-3'>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h6>Content writing</h6>
+                                <p>But I must explain to you how all this mistaken 
+                                idea of denouncing pleasure</p>
+                            </div>
+                        </div>
+                        <div className='p-3'>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h6>Content writing</h6>
+                                <p>But I must explain to you how all this mistaken 
+                                idea of denouncing pleasure</p>
+                            </div>
+                        </div>
+                        <div className='p-3'>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h6>Content writing</h6>
+                                <p>But I must explain to you how all this mistaken 
+                                idea of denouncing pleasure</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
                 </div>
                
                 <Footer>
