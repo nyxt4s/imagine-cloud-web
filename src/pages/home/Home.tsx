@@ -2,6 +2,9 @@ import imgPc from '../../assets/Rectangle 43 (1).svg';
 import imgPc2 from '../../assets/Group 16.svg';
 import Footer from '../../components/footer/footer';
 import cuatro from '../../assets/04.svg';
+import circle from '../../assets/memoji female 06.svg';
+import comillas from '../../assets/comillas.svg';
+import fincomillas from '../../assets/fincomillas.svg';
 
 export default function Home (){
 
@@ -61,7 +64,7 @@ export default function Home (){
                     <h5 className='text-2xl text-black ml-28'>Things We Enjoy</h5>
                     <div className='flex justify-center'>
                     <div className='align-center flex-col p-4'>
-                        <div className='p-3 flex'>
+                        <div className='p-3 my-8 flex shadow-md'>
                             <div>
                                 <img src={cuatro} alt="" className='p-4 text-center justify-center align-center'/>
                             </div>
@@ -71,8 +74,8 @@ export default function Home (){
                                 idea of denouncing pleasure</p>
                             </div>
                         </div>
-                        <div className='p-3 flex'>
-                        <div>
+                        <div className='p-3 flex my-8  shadow-md'>
+                            <div>
                                 <img src={cuatro} alt="" className='p-4 text-center justify-center align-center'/>
                             </div>
                             <div className='py-4'>
@@ -81,7 +84,7 @@ export default function Home (){
                                 idea of denouncing pleasure</p>
                             </div>
                         </div>
-                        <div className='p-3 flex'>
+                        <div className='p-3 flex my-8  shadow-md'>
                              <div>
                                 <img src={cuatro} alt="" className='p-4 text-center justify-center align-center'/>
                             </div>
@@ -93,7 +96,7 @@ export default function Home (){
                         </div>
                     </div>
                     <div className='pt-12'>
-                        <div className='p-3 flex'>
+                        <div className='p-3 flex my-8  shadow-md'>
                             <div>
                                 <img src={cuatro} alt="" className='p-4 text-center justify-center align-center'/>
                             </div>
@@ -103,7 +106,7 @@ export default function Home (){
                                 idea of denouncing pleasure</p>
                             </div>
                         </div>
-                        <div className='p-3 flex'>
+                        <div className='p-3 flex my-8  shadow-md'>
                             <div>
                                 <img src={cuatro} alt="" className='p-4 text-center justify-center align-center'/>
                             </div>
@@ -113,7 +116,7 @@ export default function Home (){
                                 idea of denouncing pleasure</p>
                             </div>
                         </div>
-                        <div className='p-3 flex'>
+                        <div className='p-3 flex my-8  shadow-md'>
                             <div>
                                 <img src={cuatro} alt="" className='p-4 text-center justify-center align-center'/>
                             </div>
@@ -126,6 +129,62 @@ export default function Home (){
                     </div>
                     </div>
                     
+                </div>
+
+                <div className="container mx-auto px-4 h-auto py-10 mb-10 ">
+                    <div>
+                        <h5 className='text-4xl py-4'>testimonios</h5>
+                    </div>
+                    <div className='flex justify-center  text-center items-center py-8'>
+                        <div className='w-2/4'>
+
+                        </div>
+                        <img src={comillas} alt="" className='relative -ml-10 mb-52 h-10 m-4'/>
+                        <div className='w-3/4 shadow-md p-4 flex-col'>
+                            <div className='w-2/4'>
+                                <img src="" alt="" className=''/>
+                            </div>
+                            <div className='w-full p-4'>
+                
+                                <h6 className='w-1/3 text-lg'>
+                                    Testimonio
+                                </h6>
+                                <p className='w-full text-left'>
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus.”
+                                    Sed arcu, enim eu adipiscing enim vulputate vulputate semper adipiscing. Customer
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <img src={fincomillas} alt="" className='relative  h-10 mt-56 m-4'/>
+                    </div>
+                    <div className='flex'>
+                        <div className='flex-col w-1/3 shadow-xl p-8 m-8'>
+                            <div className='text-center items-center justify-center w-full'>
+                                <img src={circle} alt="" className='w-full h-24 p-2' />
+                            </div>
+                            <div>
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum velit egestas rutrum purus. Quam velit velit nisi ultrices gravida est in tellus. Id in faucibus consequat hendrerit scelerisque maecenas massa, quis. “ - Customer</p>
+                            </div>
+                        </div>
+                        <div className='flex-col w-1/3  m-8 p-8 shadow-xl'>
+                            <div className='text-center items-center justify-center w-full'>
+                                <img src={circle} alt="" className='w-full h-24 p-2' />
+                            </div>
+                            <div>
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum velit egestas rutrum purus. Quam velit velit nisi ultrices gravida est in tellus. Id in faucibus consequat hendrerit scelerisque maecenas massa, quis. “ - Customer</p>
+                            </div>
+                        </div>
+                        <div className='flex-col w-1/3  m-8 p-8 shadow-xl'>
+                            <div className='text-center items-center justify-center w-full'>
+                            <img src={circle} alt="" className='w-full h-24 p-2' />
+                            </div>
+                            <div>
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum velit egestas rutrum purus. Quam velit velit nisi ultrices gravida est in tellus. Id in faucibus consequat hendrerit scelerisque maecenas massa, quis. “ - Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                     
                 </div>
                
                 <Footer>
