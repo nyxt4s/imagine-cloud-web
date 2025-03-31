@@ -1,10 +1,14 @@
-import imgPc from '../../assets/Rectangle 43 (1).svg';
+
 import imgPc2 from '../../assets/Group 16.svg';
 import Footer from '../../components/footer/footer';
 import cuatro from '../../assets/04.svg';
 import circle from '../../assets/memoji female 06.svg';
 import comillas from '../../assets/comillas.svg';
 import fincomillas from '../../assets/fincomillas.svg';
+import webDeveloper from '../../assets/a-photo-of-a-web-developer-sitting-at-a-_e951T-AvTQmOyQSpdkMKtw_lNNz8RvcROSHGr9K7JSv7g.jpeg'
+import bussiness from '../../assets/a-photo-of-a-man-sitting-at-a-desk-with-_bt0tzVFFQG2miRoH3h0sag_I7SlZ2w-Trm_8L5NllcjOA.jpeg'
+import MoonAndStar from '../../components/star/MoonAndStar';
+
 
 export default function Home (){
 
@@ -14,16 +18,17 @@ export default function Home (){
        
                 <div className="container flex h-svh mx-auto px-4 bg-black pt-20  mb-10">
                     <div className="w-1/2 content-center  text-center justify-center items-center">
+                       
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-white  w-max">NYX TECHNOLOGIES</h1>
                         <p className="text-white text-1xl mt-4">"Tu Tiempo Importa, Nuestro Tecnología 
                         Simplifica: ¡Vive más, Preocúpate menos!"</p>
                         <br />
-                        <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow animate-pulse">
                             Contáctanos
                         </button>
                     </div>
                     <div className="w-1/2 h-auto content-center">
-                    
+                            <MoonAndStar></MoonAndStar>
                     </div>
                   
                 </div>
@@ -35,7 +40,7 @@ export default function Home (){
                         <div className='w-1/3 items-center text-center justify-center'>
                             
                             <div className='w-5/6 h-auto  items-center text-center p-4 shadow-md hover:shadow-xl transition-shadow duration-300'>
-                                <img src={imgPc} alt="" className='h-2/3 w-full'/>
+                                <img src={webDeveloper} alt="" className='h-2/3 w-full'/>
                                 <h6 className='items-center text-center pt-3 text-lg'>web Developers</h6>
                                 <p className='p-4 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
                                 <button>Learn more</button>
@@ -51,7 +56,7 @@ export default function Home (){
                         </div>
                         <div className='w-1/3'>  
                             <div className='w-5/6 h-auto items-center text-center p-4 shadow-md hover:shadow-xl transition-shadow duration-300'>
-                                <img src={imgPc2} alt="" className='h-2/3 w-full'/>
+                                <img src={bussiness} alt="" className='h-2/3 w-full'/>
                                 <h6 className='items-center text-center pt-3 text-lg'>web Developers</h6>
                                <p className='p-4 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
                                 <button className=''>Learn more</button>

@@ -38,7 +38,7 @@ export default function Footer () {
                 </div>
             </div>
             <p className="text-center justify-center text-xl text-white h-20">
-                Derecho reservado a NYX TEchnologies SA.
+                Derecho reservado a NYX Technologies SA.
             </p>
         </footer>
 

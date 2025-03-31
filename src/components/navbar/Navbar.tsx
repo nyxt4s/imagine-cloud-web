@@ -2,6 +2,7 @@ import { GoArrowRight } from "react-icons/go";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import Logo  from "../../assets/nyx technologies.svg";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const handleMenu = () => {
@@ -19,22 +20,22 @@ export default function Navbar() {
                     className="font-medium font-sans hover:text hover:underline underline-offset-4 decoration-2" >
                     Inicio
                 </a>
-                <a href="#" className="font-medium font-sans hover:text-black hover:underline underline-offset-4 decoration-2"
+                <Link to="/conocenos" className="font-medium font-sans hover:text-black hover:underline underline-offset-4 decoration-2"
                 >
                     Conócenos
-                </a>
+                </Link>
                 <a
                     href="#"
                     className="font-medium font-sans hover:text-black hover:underline underline-offset-4 decoration-2"
                 >
                     Qué hacemos
                 </a>
-                <a
-                    href="#"
+                <Link
+                    to='/blog'
                     className="font-medium font-sans hover:text-black hover:underline underline-offset-4 decoration-2"
                 >
                     Blog
-                </a>
+                </Link>
             </div>
 
             <div className="flex-1 justify-end hidden lg:flex text-black">
@@ -66,24 +67,24 @@ export default function Navbar() {
                     >
                         Home
                     </a>
-                    <a
-                        href="#"
+                    <Link
+                        to="/conocenos"
                         className="font-medium m-3 p-3 bg-gray-100 hover:bg-gray-200 rounded-lg block"
                     >
                         Conócenos
-                    </a>
+                    </Link>
                     <a
                         href="#"
                         className="font-medium m-3 p-3 bg-gray-100 hover:bg-gray-200 rounded-lg block"
                     >
                         Qué hacemos
                     </a>
-                    <a
-                        href="#"
+                    <Link
+                        to="/blog"
                         className="font-medium m-3 p-3 bg-gray-100 hover:bg-gray-200 rounded-lg block"
                     >
                         Blog
-                    </a>
+                    </Link>
                 </div>
                 <div className="h-[1px] bg-gray-300 my-4"></div>
                 <div className="flex-1 justify-end mt-6 px-3">
